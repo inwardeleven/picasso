@@ -112,6 +112,15 @@ function populatedropdown(dayfield, monthfield, yearfield){
 </script>
 </head>
 <body id="elpaso">
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s);
+  js.id = id; js.src = 'https://www.localmed.com/assets/web/js/widget.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'localmed-wjs'));
+</script>
 <div id="google_translate_element" style="position:absolute;"></div><script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-38958003-1'}, 'google_translate_element');
@@ -167,7 +176,7 @@ function googleTranslateElementInit() {
 				<li><a href="../../el-paso/about/smile-gallery.html">Smile Gallery</a></li>
 				<li><a href="../../el-paso/about/picasso-complete-patient-forms.pdf" target="_blank">Patient Forms</a></li>
 				<li><a href="../../el-paso/about/insurance-financing.html">Insurance &amp; Financing</a></li>
-				<li><a href="../../el-paso/about/appointment.html">Request an Appointment Time</a></li>
+				<li><a data-localmed-toggle="modal" href="https://www.localmed.com/widgets/fb139057-395a-491c-a4dd-8e9d1474adb3/">Request an Appointment Time</a></li>
 				<li><a href="../../blog/el-paso">Blog</a></li>
 			</ul>
 			</li>

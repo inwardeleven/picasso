@@ -21,6 +21,15 @@ body {margin:0;}
 </script>
 </head>
 <body id="elpaso">
-<a href="/el-paso/about/appointment.html" onClick="_gaq.push(['_trackEvent', 'Appointment Pop-Up', 'Click']);"><img src="/images/popup/appointment2.jpg" alt="" width="410" height="240" /></a>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s);
+  js.id = id; js.src = 'https://www.localmed.com/assets/web/js/widget.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'localmed-wjs'));
+</script>
+<a data-localmed-toggle="modal" href="https://www.localmed.com/widgets/fb139057-395a-491c-a4dd-8e9d1474adb3/" onClick="_gaq.push(['_trackEvent', 'Appointment Pop-Up', 'Click']);"><img src="/images/popup/appointment2.jpg" alt="" width="410" height="240" /></a>
 </body>
 </html>
