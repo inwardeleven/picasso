@@ -141,6 +141,10 @@ body {
 	text-decoration: none;
 }
 
+#nav #mobile-book {
+	display: none;
+}
+
 @-moz-document url-prefix() { 
 	#nav li a {
 		padding: 10px 8px 12px;
@@ -902,7 +906,6 @@ h4 {
 	line-height: normal;
 }
 
-
 /************************************************************************************
 MOBILE
 *************************************************************************************/
@@ -1177,6 +1180,10 @@ MOBILE
 
 	#nav li:hover .subnavigation {
 		display: none;
+	}
+	
+	#nav #mobile-book {
+		display: block;
 	}
 
 	#call-wrap {
