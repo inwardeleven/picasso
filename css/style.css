@@ -599,7 +599,7 @@ img.phright {
 	font-weight:  700;
 	height: 20px;
 	margin: 0 auto;
-	opacity: .75;
+/*	opacity: .75; */
 	padding: 10px;
 	position: fixed;
 	text-align: center;
