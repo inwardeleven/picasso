@@ -19,7 +19,7 @@ body {
 #header {
 	background: #1d8b92 url('../images/bg_header.jpg') top center no-repeat;
 	height: 130px;
-	margin: 0;
+	margin: 40px 0 0;
 	width: 100%;
 }
 
@@ -586,6 +586,29 @@ img.phright {
 	margin: 0 0 10px 10px;
 }
 
+#appt {
+	background: #FCB044;
+	border-bottom: 1px white solid;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight:  700;
+	height: 20px;
+	margin: 0 auto;
+	opacity: .75;
+	padding: 10px;
+	position: fixed;
+	text-align: center;
+	text-shadow: 0px 1px 1px #444;
+	top: 0;
+	width: 100%;
+	z-index: 100000;
+}
+
+#appt a {
+	color: #fff;
+}
+
 a {
 	cursor: hand !important;
 	text-decoration: none;
@@ -1097,7 +1120,7 @@ MOBILE
 	#navigation {
 		left: 0;
 		position: fixed;
-		top: 0;
+		top: 40px;
 		width: 100%;
 	}
 
@@ -1190,7 +1213,7 @@ MOBILE
 		position: fixed;
 		right: 0;
 		left: 75%;
-		top: 0;
+		top: 40px;
 		width: 160px;
 		z-index: 100;
 	}
