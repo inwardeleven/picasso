@@ -23,6 +23,10 @@ body {
 	width: 100%;
 }
 
+#splash #header {
+	margin: 0;
+}
+
 #headcontent {
 	margin: 0 auto;
 	text-align: center;
