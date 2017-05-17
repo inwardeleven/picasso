@@ -29,7 +29,13 @@
 </script>
 </head>
 <body id="losangeles">
-<script src="/js/appointment.js" type="text/javascript"></script
+<script>
+	(function (d) {
+		var script = d.createElement('script'); script.type = 'text/javascript'; script.async = true;
+		script.src = '//offsiteschedule.zocdoc.com/plugin/embed';
+		var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+	})(document);
+</script><script src="/js/appointment.js" type="text/javascript"></script
 <div class="pikachoose">
 	<h3>Children's Dentist</h3>
 	<ul id="pikame" class="jcarousel-skin-pika">

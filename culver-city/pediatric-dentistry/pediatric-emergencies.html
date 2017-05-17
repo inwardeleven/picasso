@@ -64,7 +64,13 @@ $(function () {
 </script>
 </head>
 <body id="losangeles">
-<script src="../js/jquery.colorbox.js"></script>
+<script>
+	(function (d) {
+		var script = d.createElement('script'); script.type = 'text/javascript'; script.async = true;
+		script.src = '//offsiteschedule.zocdoc.com/plugin/embed';
+		var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+	})(document);
+</script><script src="../js/jquery.colorbox.js"></script>
 <script>
 	if ($(window).width() > 142) {
 		function openColorBox(){
