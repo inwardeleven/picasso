@@ -32,3 +32,5 @@ Redirect 301 /other-services/x-rays.html /culver-city/other-services/x-rays.html
 Redirect 301 /other-services/ct-scan.html /culver-city/other-services/ct-scan.html
 Redirect 301 /other-services/tmj.html /culver-city/other-services/tmj.html
 Redirect 301 /culver-city/about/appointment.html /culver-city/
+Redirect 301 /el-paso/index.html /el-paso/
+Redirect 301 /culver-city/index.html /culver-city/
