@@ -2,6 +2,7 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} ^picassosmiles.com [NC]
 RewriteRule ^(.*)$ http://www.picassosmiles.com/$1 [L,R=301,NC]
 RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
 
 Redirect 301 /el-paso/dentists.html /el-paso/about/dentists.html
 Redirect 301 /el-paso/smile-gallery.html /el-paso/about/smile-gallery.html
@@ -32,5 +33,3 @@ Redirect 301 /other-services/x-rays.html /culver-city/other-services/x-rays.html
 Redirect 301 /other-services/ct-scan.html /culver-city/other-services/ct-scan.html
 Redirect 301 /other-services/tmj.html /culver-city/other-services/tmj.html
 Redirect 301 /culver-city/about/appointment.html /culver-city/
-Redirect 301 /el-paso/index.html /el-paso/
-Redirect 301 /culver-city/index.html /culver-city/
