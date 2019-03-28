@@ -74,7 +74,7 @@ function populatedropdown(dayfield, monthfield, yearfield){
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-38958003-1', 'auto');
-  ga('create', 'UA-38958003-2', 'auto',  'elpaso');
+  ga('create', 'UA-38958003-2', 'auto', 'elpaso');
   ga('send', 'pageview');
   ga('elpaso.send', 'pageview');
 
